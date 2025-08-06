@@ -1,0 +1,204 @@
+<?php 
+session_start();
+
+if (isset($_SESSION['ID']) && isset($_SESSION['email'])) {
+
+    
+ ?>
+
+
+
+
+<!DOCTYPE html>
+<html style="font-size: 16px;" lang="en"><head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="keywords" content="INTUITIVE, Your design is your passion, Key Features, Pricing Plan, Empire State Building">
+    <meta name="description" content="">
+    <title>Home</title>
+    <link rel="stylesheet" href="nicepage.css" media="screen">
+<link rel="stylesheet" href="Home.css" media="screen">
+    <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
+    <script class="u-script" type="text/javascript" src="nicepage.js" defer=""></script>
+    <meta name="generator" content="Nicepage 6.0.3, nicepage.com">
+    <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
+    
+    
+    
+    
+  <script type="application/ld+json">{
+      "@context": "http://schema.org",
+      "@type": "Organization",
+      "name": "",
+      "logo": "images/library.png",
+      "sameAs": []
+    }
+  </script>
+    <meta name="theme-color" content="#478ac9">
+    <meta property="og:title" content="Home">
+    <meta property="og:type" content="website">
+  <meta data-intl-tel-input-cdn-path="intlTelInput/"></head>
+  <body data-home-page="Home.html" data-home-page-title="Home" data-path-to-root="./" data-include-products="true" class="u-body u-xl-mode" data-lang="en"><header class="u-clearfix u-custom-color-1 u-header u-sticky u-sticky-1d24 u-header" id="sec-462b"><div class="u-clearfix u-sheet u-sheet-1">
+        <nav class="u-menu u-menu-one-level u-offcanvas u-menu-1">
+          <div class="menu-collapse u-custom-font u-font-georgia" style="font-size: 1.625rem; letter-spacing: 0px;">
+            <a class="u-button-style u-custom-effect-duration u-custom-left-right-menu-spacing u-custom-padding-bottom u-custom-text-active-color u-custom-text-color u-custom-text-hover-color u-custom-text-shadow u-custom-text-shadow-blur u-custom-text-shadow-color u-custom-text-shadow-transparency u-custom-text-shadow-x u-custom-text-shadow-y u-custom-top-bottom-menu-spacing u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="#">
+              <svg class="u-svg-link" viewBox="0 0 24 24"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#menu-hamburger"></use></svg>
+              <svg class="u-svg-content" version="1.1" id="menu-hamburger" viewBox="0 0 16 16" x="0px" y="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"><g><rect y="1" width="16" height="2"></rect><rect y="7" width="16" height="2"></rect><rect y="13" width="16" height="2"></rect>
+</g></svg>
+            </a>
+          </div>
+          <div class="u-custom-menu u-nav-container">
+            <ul class="u-custom-font u-font-georgia u-nav u-unstyled u-nav-1"><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-custom-color-3 u-text-custom-color-2 u-text-hover-custom-color-3" href="Home.html" style="padding: 22px 20px;">Home</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-custom-color-3 u-text-custom-color-2 u-text-hover-custom-color-3" href="About.html" style="padding: 22px 20px;">About</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-custom-color-3 u-text-custom-color-2 u-text-hover-custom-color-3" href="Library-Menu.html" style="padding: 22px 20px;">Library Menu</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-custom-color-3 u-text-custom-color-2 u-text-hover-custom-color-3" href="Contact-Us.html" style="padding: 22px 20px;">Contact</a>
+</li></ul>
+          </div>
+          <div class="u-custom-menu u-nav-container-collapse">
+            <div class="u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
+              <div class="u-inner-container-layout u-sidenav-overflow">
+                <div class="u-menu-close"></div>
+                <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2">
+                  <li class="u-nav-item"><a class="u-button-style u-nav-link" href="Home.html">Home</a></li>
+                  <li class="u-nav-item"><a class="u-button-style u-nav-link" href="Home.html">Home</a>
+                  </li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="About.html">About</a>
+                  </li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Library-Menu.html">Library Menu</a>
+                  </li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Contact-Us.html">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>
+          </div>
+        </nav>
+        <a href="index.php" class="u-image u-logo u-image-1" data-image-width="500" data-image-height="500">
+          <img src="images/library.png" class="u-logo-image u-logo-image-1">
+        </a>
+      </div></header>
+    <section class="u-align-center u-clearfix u-image u-shading u-section-1" src="" data-image-width="1048" data-image-height="613" id="sec-f2b1">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <h1 class="u-align-center u-text u-text-default u-title u-text-1">LibraryHub</h1>
+        <p class="u-align-center u-large-text u-text u-text-variant u-text-2">PAGES UNVEIL WORLDS WITHIN</p>
+        <a href="About.html" class="u-align-center u-border-2 u-border-custom-color-3 u-border-hover-custom-color-4 u-btn u-button-style u-none u-text-custom-color-3 u-text-hover-custom-color-2 u-btn-1">Read More</a>
+      </div>
+    </section>
+    <section class="u-clearfix u-custom-color-4 u-section-2" id="sec-b544">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <div class="custom-expanded data-layout-selected u-clearfix u-gutter-10 u-layout-wrap u-layout-wrap-1">
+          <div class="u-layout" style="">
+            <div class="u-layout-row" style="">
+              <div class="u-align-left u-container-style u-custom-color-2 u-layout-cell u-right-cell u-size-60 u-size-xs-60 u-layout-cell-1">
+                <div class="u-container-layout u-container-layout-1">
+                  <h2 class="u-text u-text-default u-text-1"> Book Buying: Investing in Knowledge and Imagination </h2>
+                  <p class="u-text u-text-2"> Book buying isn't just a transaction; it's a delightful journey where you invest in knowledge, stories, and imagination.</p>
+                  <a href="Library-Menu.php" class="u-border-2 u-border-custom-color-1 u-border-hover-custom-color-3 u-btn u-button-style u-none u-text-hover-custom-color-3 u-btn-1">See More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="u-carousel u-gallery u-gallery-slider u-layout-carousel u-lightbox u-no-transition u-show-text-on-hover u-gallery-1" id="carousel-d1fd" data-interval="1500" data-u-ride="carousel">
+          <ol class="u-absolute-hcenter u-carousel-indicators u-carousel-indicators-1">
+            <li data-u-target="#carousel-d1fd" data-u-slide-to="0" class="u-active u-grey-70 u-shape-circle" style="width: 10px; height: 10px;"></li>
+            <li data-u-target="#carousel-d1fd" data-u-slide-to="1" class="u-grey-70 u-shape-circle" style="width: 10px; height: 10px;"></li>
+            <li data-u-target="#carousel-d1fd" data-u-slide-to="2" class="u-grey-70 u-shape-circle" style="width: 10px; height: 10px;"></li>
+            <li data-u-target="#carousel-d1fd" data-u-slide-to="3" class="u-grey-70 u-shape-circle" style="width: 10px; height: 10px;"></li>
+          </ol>
+          <div class="u-carousel-inner u-gallery-inner" role="listbox">
+            <div class="u-active u-carousel-item u-effect-fade u-gallery-item u-carousel-item-1">
+              <div class="u-back-slide" data-image-width="480" data-image-height="575">
+                <img class="u-back-image u-expanded" src="images/secondCol1.jpg">
+              </div>
+            </div>
+            <div class="u-carousel-item u-effect-fade u-gallery-item u-carousel-item-2">
+              <div class="u-back-slide" data-image-width="736" data-image-height="1047">
+                <img class="u-back-image u-expanded" src="images/secondCol2.jpg">
+              </div>
+            </div>
+            <div class="u-carousel-item u-effect-fade u-gallery-item u-carousel-item-3" data-image-width="736" data-image-height="1119">
+              <div class="u-back-slide">
+                <img class="u-back-image u-expanded" src="images/secondCol4.jpg">
+              </div>
+              <div class="u-align-center u-over-slide u-shading u-valign-bottom u-over-slide-3"></div>
+              <style data-mode="XL" data-visited="true"></style>
+              <style data-mode="LG"></style>
+              <style data-mode="MD"></style>
+              <style data-mode="SM"></style>
+              <style data-mode="XS"></style>
+            </div>
+            <div class="u-carousel-item u-effect-fade u-gallery-item u-carousel-item-4" data-image-width="236" data-image-height="314">
+              <div class="u-back-slide">
+                <img class="u-back-image u-expanded" src="images/secondCol3.jpg">
+              </div>
+              <div class="u-align-center u-over-slide u-shading u-valign-bottom u-over-slide-4"></div>
+              <style data-mode="XL"></style>
+              <style data-mode="LG"></style>
+              <style data-mode="MD"></style>
+              <style data-mode="SM"></style>
+              <style data-mode="XS"></style>
+            </div>
+          </div>
+          <a class="u-absolute-vcenter u-carousel-control u-carousel-control-prev u-grey-70 u-icon-circle u-opacity u-opacity-70 u-spacing-10 u-text-white u-carousel-control-1" href="#carousel-d1fd" role="button" data-u-slide="prev">
+            <span aria-hidden="true">
+              <svg viewBox="0 0 451.847 451.847"><path d="M97.141,225.92c0-8.095,3.091-16.192,9.259-22.366L300.689,9.27c12.359-12.359,32.397-12.359,44.751,0
+c12.354,12.354,12.354,32.388,0,44.748L173.525,225.92l171.903,171.909c12.354,12.354,12.354,32.391,0,44.744
+c-12.354,12.365-32.386,12.365-44.745,0l-194.29-194.281C100.226,242.115,97.141,234.018,97.141,225.92z"></path></svg>
+            </span>
+            <span class="sr-only">
+              <svg viewBox="0 0 451.847 451.847"><path d="M97.141,225.92c0-8.095,3.091-16.192,9.259-22.366L300.689,9.27c12.359-12.359,32.397-12.359,44.751,0
+c12.354,12.354,12.354,32.388,0,44.748L173.525,225.92l171.903,171.909c12.354,12.354,12.354,32.391,0,44.744
+c-12.354,12.365-32.386,12.365-44.745,0l-194.29-194.281C100.226,242.115,97.141,234.018,97.141,225.92z"></path></svg>
+            </span>
+          </a>
+          <a class="u-absolute-vcenter u-carousel-control u-carousel-control-next u-grey-70 u-icon-circle u-opacity u-opacity-70 u-spacing-10 u-text-white u-carousel-control-2" href="#carousel-d1fd" role="button" data-u-slide="next">
+            <span aria-hidden="true">
+              <svg viewBox="0 0 451.846 451.847"><path d="M345.441,248.292L151.154,442.573c-12.359,12.365-32.397,12.365-44.75,0c-12.354-12.354-12.354-32.391,0-44.744
+L278.318,225.92L106.409,54.017c-12.354-12.359-12.354-32.394,0-44.748c12.354-12.359,32.391-12.359,44.75,0l194.287,194.284
+c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,248.292z"></path></svg>
+            </span>
+            <span class="sr-only">
+              <svg viewBox="0 0 451.846 451.847"><path d="M345.441,248.292L151.154,442.573c-12.359,12.365-32.397,12.365-44.75,0c-12.354-12.354-12.354-32.391,0-44.744
+L278.318,225.92L106.409,54.017c-12.354-12.359-12.354-32.394,0-44.748c12.354-12.359,32.391-12.359,44.75,0l194.287,194.284
+c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,248.292z"></path></svg>
+            </span>
+          </a>
+        </div>
+      </div>
+    </section>
+    
+    
+    
+    <footer class="u-align-center u-clearfix u-custom-color-1 u-footer u-footer" id="sec-41a0"><div class="u-clearfix u-sheet u-sheet-1">
+        <p class="u-align-left u-text u-text-1">
+          <span style="font-weight: 700;"> 38 Riverside Dr</span>
+          <br> 38 Riverside Dr, Marikina, 1800 Metro Manila<br>
+        </p>
+        <div class="u-active-none u-btn u-btn-rectangle u-button-style u-hover-none u-none u-btn-1"><span class="u-icon"><svg class="u-svg-content" viewBox="0 0 405.333 405.333" x="0px" y="0px" style="width: 1em; height: 1em;"><path d="M373.333,266.88c-25.003,0-49.493-3.904-72.704-11.563c-11.328-3.904-24.192-0.896-31.637,6.699l-46.016,34.752    c-52.8-28.181-86.592-61.952-114.389-114.368l33.813-44.928c8.512-8.512,11.563-20.971,7.915-32.64    C142.592,81.472,138.667,56.96,138.667,32c0-17.643-14.357-32-32-32H32C14.357,0,0,14.357,0,32    c0,205.845,167.488,373.333,373.333,373.333c17.643,0,32-14.357,32-32V298.88C405.333,281.237,390.976,266.88,373.333,266.88z"></path></svg></span>&nbsp;+1 (234) 567-8910
+        </div>
+        <div class="u-align-left u-social-icons u-spacing-20 u-social-icons-1">
+          <a class="u-social-url" title="facebook" href=""><span class="u-file-icon u-icon u-social-facebook u-social-icon u-icon-2"><img src="images/4922978.png" alt=""></span>
+          </a>
+          <a class="u-social-url" title="twitter" href=""><span class="u-file-icon u-icon u-social-icon u-social-twitter u-icon-3"><img src="images/1384174.png" alt=""></span>
+          </a>
+          <a class="u-social-url" title="instagram" href=""><span class="u-file-icon u-icon u-social-icon u-social-instagram u-icon-4"><img src="images/4923005.png" alt=""></span>
+          </a>
+          <a class="u-social-url" title="linkedin" href=""><span class="u-file-icon u-icon u-social-icon u-social-linkedin u-icon-5"><img src="images/1384171.png" alt=""></span>
+          </a>
+        </div>
+        <p class="u-small-text u-text u-text-variant u-text-2">BookVi<span style="font-size: 0.75rem;"></span>sta Company&nbsp;ⓒ 2023. All Rights Reserved .
+        </p>
+      </div>
+    </footer>
+
+  
+</body></html>
+
+
+
+
+<?php 
+}else{
+     header("Location: index.php");
+     exit();
+}
+ ?>

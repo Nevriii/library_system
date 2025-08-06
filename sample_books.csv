@@ -1,0 +1,11 @@
+title,author,genre,language,year,price,description,isbn,picture
+"The Great Gatsby","F. Scott Fitzgerald","Fiction","English",1925,15.99,"A story of the Jazz Age and the American Dream","978-0743273565","gatsby.jpg"
+"To Kill a Mockingbird","Harper Lee","Fiction","English",1960,12.99,"A powerful story about racial injustice in the American South","978-0446310789","mockingbird.jpg"
+"1984","George Orwell","Science Fiction","English",1949,14.99,"A dystopian novel about totalitarianism and surveillance","978-0451524935","1984.jpg"
+"Pride and Prejudice","Jane Austen","Romance","English",1813,11.99,"A classic romance novel about love and social class","978-0141439518","pride.jpg"
+"The Hobbit","J.R.R. Tolkien","Fantasy","English",1937,16.99,"An adventure story about a hobbit's journey","978-0547928241","hobbit.jpg"
+"Lord of the Flies","William Golding","Fiction","English",1954,13.99,"A novel about the dark side of human nature","978-0399501487","flies.jpg"
+"The Catcher in the Rye","J.D. Salinger","Fiction","English",1951,12.99,"A coming-of-age story about teenage alienation","978-0316769488","catcher.jpg"
+"Animal Farm","George Orwell","Allegory","English",1945,10.99,"A political allegory about the Russian Revolution","978-0451526342","animal.jpg"
+"The Alchemist","Paulo Coelho","Fiction","English",1988,14.99,"A novel about following your dreams and destiny","978-0062315007","alchemist.jpg"
+"Brave New World","Aldous Huxley","Science Fiction","English",1932,15.99,"A dystopian novel about a futuristic society","978-0060850524","brave.jpg" 
